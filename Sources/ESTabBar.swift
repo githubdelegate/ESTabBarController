@@ -49,7 +49,7 @@ public enum ESTabBarItemPositioning : Int {
 
 
 /// 对UITabBarDelegate进行扩展，以支持UITabBarControllerDelegate的相关方法桥接
-internal protocol ESTabBarDelegate: NSObjectProtocol {
+public protocol ESTabBarDelegate: NSObjectProtocol {
 
     /// 当前item是否支持选中
     ///
